@@ -3,9 +3,8 @@
 install_some_rubies()
 {
     source $HOME/.rvm/scripts/rvm
-    rvm install ruby-1.9.3-p385
-    rvm install ruby-2.0.0
-    rvm --default ruby-2.0.0
+    rvm install ruby-2.2.0
+    rvm --default ruby-2.2.0
     rvm system
 }
 
